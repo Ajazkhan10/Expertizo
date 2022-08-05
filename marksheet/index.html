@@ -1,0 +1,110 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+</head>
+
+<body>
+    <!-- <table border="1" style="width: 60%; margin:10px auto; padding:10px;">
+        <th style="margin:auto;">MarkSheet Of {{userName}}</th>
+        <tr>
+            <td>S.No</td>
+            <td>01</td>
+            <td>02</td>
+            <td>03</td>
+            <td>04</td>
+            <td>05</td>
+            <td>06</td>
+            <td>07</td>
+        </tr>
+        <tr>
+            <td>Subjects</td>
+            <td>Math</td>
+            <td>Chemistry</td>
+            <td>Physics</td>
+            <td>English</td>
+            <td>Computer</td>
+            <td>Percentage</td>
+            <td>Grade</td>
+        </tr>
+        <tr>
+            <td>Result</td>
+            <td>{{subject1}}</td>
+            <td>{{subject2}}</td>
+            <td>{{subject3}}</td>
+            <td>{{subject4}}</td>
+            <td>{{subject4}}</td>
+          <td>{{percentage}}</td>
+            <td>{{Grade}}</td>
+        </tr>
+    </table> -->
+
+
+    <script>
+        const userName = prompt('Please Enter Your Name !')
+        const subject1 = parseInt(prompt('Enter Math Marks'));
+        const subject2 = parseInt(prompt('Enter Chemistry Marks'));
+        const subject3 = parseInt(prompt('Enter Physichs Marks'));
+        const subject4 = parseInt(prompt('Enter English Marks'));
+        const subject5 = parseInt(prompt('Enter Computer Marks'));
+        var total = subject1 + subject2 + subject3 + subject4 + subject5;
+        var percentage = parseInt((total / 500) * 100)
+
+        document.write(`<table border="1"  style="width:60%; margin:10px auto;text-align:center; padding:10px; border:4px solid green; ">
+            <h1 style="color:red; font-size:40px; font-weight:800; width:100%; margin:20px auto; text-align:center;text-transform: capitalize;"> MarkSheet  Of   ${userName}</h1>
+            
+            <tr style="background:black;color:white; font-size:25px; font-weight:500;width:100px;height:50px; border:4px solid yellow; margin:10px auto;">
+            <td>S.No</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td> 
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr style="background:green;color:white; font-size:25px; font-weight:500;width:100px;height:50px;border:4px solid blue; margin:10px auto;">
+            <td>Subjects</td>
+            <td>Math</td>
+            <td>Chemistry</td>
+            <td>Physics</td>
+            <td>English</td>
+            <td>Computer</td>
+            <td style="background:yellow;color:red; font-size:30px; font-weight:500;">Percentage</td
+        </tr>
+        <tr style="width:100px;height:50px;border:4px solid gray; margin:10px auto;background:red;color:white; font-size:25px; font-weight:500;">
+            <td>Result</td>,
+            <td>${subject1}</td>
+            <td>${subject2}</td>
+            <td>${subject3}</td>
+            <td>${subject4}</td>
+            <td>${subject4}</td>
+          <td style="background:yellow;color:red; font-size:30px; font-weight:500;">${percentage}%</td>
+        </tr>
+    </table>`)
+        if (percentage >= 80 && percentage <= 100) {
+            alert("your Grade is A+ ")
+
+        } else if (percentage >= 70 && percentage < 80) {
+            alert("your Grade is A ")
+
+        } else if (percentage >= 60 && percentage < 70) {
+            alert("your Grade is B ")
+
+
+        } else if (percentage >= 50 && percentage < 60) {
+            alert("your Grade is C ")
+
+
+        } else {
+            alert("You Are Fail !")
+
+        }
+
+    </script>
+
+</body>
+
+</html>
