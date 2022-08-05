@@ -1,0 +1,406 @@
+body {
+    margin: 0;
+    padding: 0 40px 0 40px;
+    /* border: 20px solid black; */
+}
+section{
+    /* border: 5px solid gray; */
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 38px;
+    display: flex;
+}
+
+.head {
+    width: 80%;
+    margin: 5px auto;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.head img {
+    padding-right: 2px;
+}
+
+.head img:hover {
+    border: 1px solid black;
+    height: 33px;
+    padding: 0;
+    width: auto;
+}
+
+/* header image end */
+
+/* navbar start */
+.navbar {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #ebeae8;
+}
+
+.navbar ul {
+    width: 80%;
+    display: inline-flex;
+    list-style-type: none;
+    margin: auto;
+}
+
+.navbar li a {
+    display: inline-flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 10px;
+    width: 60px;
+    background-color: #ebeae8;
+    color: gray;
+    height: 25px;
+    margin: 0 2px;
+}
+
+.navbar li #aaa {
+    display: inline-flex;
+    padding: 5px 0 0 0;
+    width: 60px;
+    height: 34px;
+    margin: 0 2px;
+}
+.navbar  li a:hover,
+#active {
+    background-color: gray;
+    color: white;
+}
+
+.navbar li #aaa:hover {
+    background-color: rgb(34, 255, 0);
+    color: white;
+}
+
+/* navbr end */
+
+/* main part start */
+.main {
+    display: block;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+.main:hover {
+    padding-top: 5px;
+}
+
+.cont {
+    flex-direction: column;
+    width: 100%;
+    height: 30vh;
+    background-color: blue;
+}
+
+.cont h1 {
+    font-size: 15px;
+    color: white;
+}
+
+.cont p {
+    font-size: 12px;
+    color: lightblue;
+}
+
+.continaer {
+    width: 100%;
+    height: 70vh;
+    padding: 60px 0 0 20px;
+    margin: 10px auto;
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+}
+
+.sub_con {
+    margin: 10px auto;
+    flex-direction: column;
+    width: 80%;
+    display: inline-flex;
+    height: 70vh;
+}
+
+.sub_con img {
+    margin: 0;
+    width: 80%;
+    height: 40vh;
+    padding-bottom: 0;
+}
+
+.sub_con:hover {
+    margin: 5px 5px 5px 10px;
+}
+
+.continear1 h1 {
+    font-size: 10px;
+    height: 10vh;
+    padding-top: 15px;
+    width: 80%;
+    background-color: rgb(6, 182, 251);
+    color: white;
+    margin: 0;
+}
+
+.continear2 h1 {
+    font-size: 10px;
+    width: 80%;
+    height: 10vh;
+    color: white;
+    font-weight: 700;
+    background-color: gray;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.continear3 h1 {
+    color: white;
+    width: 80%;
+    padding-top: 15px;
+    font-size: 10px;
+    height: 10vh;
+    background-color: orange;
+    margin: 0;
+}
+
+/* picture parts here start */
+.picture_continear {
+    width: 100%;
+    height: 140vh;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+h1,
+p {
+    font-size: 10px;
+    text-transform: capitalize;
+    margin: 0;
+
+}
+
+.sub_continear11 {
+    width: 35%;
+    height: 100vh;
+    flex-direction: column;
+    /* margin: 5px auto; */
+    /* padding-top: 20px; */
+
+}
+
+.sub-continear-1 {
+    width: 100%;
+    text-align: start;
+    padding: 5px;
+    /* margin-bottom: 5px; */
+    height: 230px;
+}
+
+.sub-continear-1 img {
+    width: 160px;
+    height: 100px;
+}
+
+.text1 {
+    width: 150px;
+    height: 75px;
+    padding: 0 5px 0 5px;
+    color: white;
+}
+
+#aaaaa {
+    background-color: rgb(187, 187, 9);
+}
+
+p {
+    font-size: 8px;
+    padding-top: 10px;
+    color: black;
+}
+
+#bbbbb {
+   background-color: rgb(167, 160, 69);
+}
+img{
+    margin: 0;
+    padding: 0;
+}
+
+.sub-continear12 {
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    margin: 5px auto;
+}
+
+#ccccc {
+    margin: 0;
+    background-color: rgb(132, 0, 255);
+}
+
+#dddd {
+    margin: 0;
+
+    background-color: rgb(84, 84, 84);
+    color: white;
+}
+
+#dddd p {
+    color: rgb(155, 155, 155);
+}
+
+.sub-continear33 {
+    width: 30%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+#eeee {
+    background-color: rgb(254, 161, 176);
+}
+
+#ffff {
+    background-color: rgb(74, 232, 74);
+}
+
+#eeee p,
+#ffff p {
+    padding-top: 0;
+}
+
+.sub_text7 {
+    width: 160px;
+    height: 30px;
+    margin: 10px auto;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.sub_text7 h1 {
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sub_text7 p {
+    background-color: rgb(6, 143, 255);
+    font-size: 11px;
+}
+
+/* footer start */
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.sss ul{
+      list-style-type: none;
+      margin: 10px auto;
+}
+.sss h3{
+    margin: 10px auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+.sss ul li{
+    flex-direction: column;
+    text-align: center;
+
+}
+.sss ul li a{
+    /* text-decoration: none; */
+    font-size: 7px;
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+/* left end footer */
+/* mid start */
+.yyy{
+    width: 30%;
+    height: 20px;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+} 
+.yyy a img{
+    width: 25px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+/* right start */
+.kkk{
+   width: 30%;
+   height: 200px;
+   display: flex;
+   flex-direction: column;
+}
+.kkk img{
+   margin: 5px auto;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 0;
+}
+.kkk ul{
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 30vh;
+}
+.kkk ul li a{
+    color: gray;
+    font-size: 7px;
+    padding-bottom: 0;
+}
+.kkk p{
+    color: gray;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    font-size: 7px;
+    margin: 10px auto;
+}
+
+/* line start */
+.v1 {
+    border-left: 2px solid rgb(105, 105, 105);
+    height: 180px;
+    margin: 10px auto;
+  }
+  /* line end */

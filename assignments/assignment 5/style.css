@@ -1,0 +1,394 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: url(./images/body_bg.png);
+ 
+    
+}
+
+
+.div1{
+    width: 100%;
+    height: auto;
+    background-color: rgb(238, 238, 238);
+    border-bottom:solid 2px rgb(192, 192, 192);
+    
+}
+.image1:hover{
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.div2{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-top:solid 2px rgb(233, 233, 233);
+    position: sticky;
+    top: 0px;
+}
+
+
+button{
+   width: 150px;
+   height: 90px;
+   border: none;
+   background-color:white;
+   font-size: 14px;
+}
+
+#button1{
+   border-bottom: 5px solid rgb(131, 130, 130); 
+
+} 
+
+#button1:hover{
+    background-color: rgb(131, 130, 130);
+    color: white;
+}
+
+#button2{
+    border-bottom: 5px solid rgb(237, 76, 18); 
+ 
+} 
+
+#button2:hover{
+    background-color: rgb(237, 76, 18);
+    color: white;
+}
+
+#button3{
+    border-bottom: 5px solid rgb(254, 103, 48); 
+ 
+} 
+
+#button3:hover{
+    background-color: rgb(254, 103, 48);
+    color: white;
+}
+
+#button4{
+    border-bottom: 5px solid rgb(224, 224, 2); 
+ 
+} 
+
+#button4:hover{
+    background-color: rgb(224, 224, 2);
+    color: white;
+}
+
+#button5{
+    border-bottom: 5px solid rgb(60, 164, 60); 
+ 
+} 
+
+#button5:hover{
+    background-color: rgb(60, 164, 60);
+    color: white;
+}
+
+#button6{
+    border-bottom: 5px solid rgb(0, 145, 255); 
+ 
+} 
+
+#button6:hover{
+    background-color: rgb(0, 145, 255);
+    color: white;
+}
+
+#button7{
+    border-bottom: 5px solid rgb(15, 90, 220); 
+ 
+} 
+
+#button7:hover{
+    background-color: rgb(15, 90, 220);
+    color: white;
+}
+
+
+
+.div3{
+    width:1200px;
+    height: auto;
+    margin:auto;
+    background-color: white;
+    background:url(./images/container_bg.png) white;
+}
+
+
+.div4{
+    width: 900px;
+    height: auto;
+    margin: auto;
+}
+
+
+
+.div5{
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+} 
+
+
+.card1 img{
+    width: 100%;
+}
+
+
+.card1 h4{
+    background-color: rgb(122, 122, 122);
+    margin-top:-4px;
+    font-size: 25px;
+    font-weight: normal;
+    padding:30px 0px 0px 20px;
+}
+
+
+.card1 p{
+    background-color: rgb(122, 122, 122);
+    margin-top:-4px;
+    color: lightgrey;
+    font-size: 17px;
+    padding:20px 0px 40px 20px;
+}
+
+.card1:hover{
+    margin-top: 10px;
+}
+
+
+
+.card-container{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+
+
+.card{
+    width: 280px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card h5{
+    padding: 22px;
+    font-size: 21px;
+    margin-top: -4px;
+    color: white;
+    font-weight: normal;
+}
+
+.card2{
+    background-color: rgb(224, 224, 9);
+}
+
+.card3{
+    background-color: rgb(44, 186, 44);
+}
+
+.card4{
+    background-color: rgb(20, 81, 225);
+}
+
+
+.card:hover{
+    margin-top: 5px;
+}
+
+
+.div6{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div6 h6{
+    width: 250px;
+font-size: 20px;
+background-color: rgb(47, 47, 47);
+padding:15px;
+color: lightgrey;
+font-weight: normal;
+border-radius: 5px;
+
+}
+
+.div6 .ab{
+    float: right;
+    color: lightgrey;
+    font-size: 18px;
+    
+}
+
+.div6 img{
+    width: 100%;
+}
+
+
+
+.bottom-cards-container{
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-card{
+    width: 280px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.bottom-card:hover{
+    margin-top: 25px;
+}
+
+
+.content1{
+    background-color: rgb(48, 87, 230);
+    padding:20px;
+    
+}
+
+
+.content2{
+    background-color: rgb(189, 65, 20);
+    padding:20px;
+}
+
+.content3{
+    background-color: rgb(47, 212, 47);
+    padding:20px;
+    
+}
+
+.content4{
+    background-color: rgb(255, 91, 118);
+    padding:20px;
+    
+}
+
+
+.content5{
+    background-color: rgb(138, 50, 232);
+    padding:20px;
+    
+}
+
+.content6{
+    background-color: rgb(66, 134, 244);
+    padding:20px;
+    
+}
+
+.bottom-card-text-content{
+    margin-top: -4px;
+}
+
+.bottom-card-text-content h5{
+font-size: 18px;
+color: white;
+font-weight: normal;
+margin-bottom: 10px;
+}
+
+.bottom-card-text-content p{
+    line-height: 20px;
+}
+
+footer{
+    width: 100%;
+    background-color:rgb(27, 27, 27);
+    margin-top:30px;
+    padding:20px 0px;
+}
+
+.footer-content{
+    display: flex;
+}
+
+
+.footer-boxes{
+    width: 300px;
+    padding:0px 30px;
+    border-right:solid 2px;
+
+}
+
+
+.footer-boxes ul{
+margin-top: 20px;
+}
+.footer-boxes ul li{
+    color: grey;
+    margin:5px 0px;
+}
+
+.footer-boxes ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer-boxes ul li a:hover{
+    color: white;
+}
+
+.footer-boxes h6{
+    font-size: 20px;
+    color: white;
+   
+}
+
+.footer-boxes:nth-child(3){
+    border-right:none;
+    
+}
+
+
+.footer-boxes img{
+    display: block;
+    margin-top: 50px;
+    float: left;
+}
+
+.footer-boxes:nth-child(3) ul{
+    float: right;
+    margin-top:38px;
+    
+}
+
+.footer-boxes:nth-child(3) ul li{
+    list-style-type: none;
+    margin-left: 12px;
+}
+
+.footer-boxes:nth-child(3) ul li a{
+text-decoration: underline;
+font-size: 11px;
+color: grey;
+
+}
+
+.footer-boxes:nth-child(3) h6{
+    font-size: 12px;
+    color: grey;
+    margin-top: 15px;
+}
+
